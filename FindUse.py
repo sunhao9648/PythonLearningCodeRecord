@@ -18,3 +18,11 @@ print(b2.islower())
 print(b1.isupper())
 print(b2.isupper())
 print(b1.format(b2))
+print("this is {}'s personal code execise".format("sunhao"))
+
+hash = {"name":"sunhao","hobby":"coding"}
+print ("{name} like {hobby}".format(**hash))
+
+print ("右对齐:","{0:->8}".format(2))
+print ("左对齐:","{0:-<8}".format(2))
+print ("中对齐:","{0:-^8}".format(2))
